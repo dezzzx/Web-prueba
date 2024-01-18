@@ -1,0 +1,164 @@
+/* Estilos globales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+
+    margin: 0;
+    padding: 0;
+    background-image: url(https://assetsio.reedpopcdn.com/-1616688899670.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Estilo para el encabezado del artículo */
+article header {
+    background:  rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0;
+    
+    ;
+}
+
+/* Títulos */
+h1, h2 {
+    margin-bottom: 0.5em;
+}
+
+/* Fecha del artículo */
+article header time {
+    font-style: italic;
+    color: #f4f4f4;
+}
+
+/* Estilos para las secciones */
+section {
+    background: rgba(0, 0, 0, 0.5); 
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    transform: scale(0.85);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #ffffff;
+}.formulario{
+    background-image: url(https://i.pinimg.com/originals/5b/41/b3/5b41b3b94dc5b55e9867fef2434d7526.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+code{
+    color: #000000;
+}.green{
+    color: #00ff22;
+}.texto{
+
+}
+
+/* Estilos para listas */
+ul {
+    padding-left: 20px;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+/* Estilos para el formulario */
+form {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1em;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4f2363;
+    color: white;
+    border: none;
+    padding: 0.7em 2em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #802bb8;
+}
+
+/* Estilos para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    text-align: left;
+    padding: 8px;
+    background-color: rgba(0, 0, 234, 0.5)}
+td{
+    text-align: left;
+    padding: 8px;
+    background-color: rgba(160, 158, 250, 0.5)}.texto{
+        text-align: left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px;
+    background-color: rgba(66, 64, 201, 0.5)}
+    
+   
+
+thead {
+    background-color: #2c639e;
+    color: #fff;
+}
+
+/* Media queries para responsividad. Aún no hemos dado esto y solamente lo quiero mencionar. Busca su significado */
+/* aplicar estilos diferentes a un documento HTML en función de las características del 
+dispositivo en el que se visualiza la página, 
+principalmente basándose en el tamaño de la pantalla y la resolución. */
+@media (max-width: 600px) {
+    body {
+        background-color: #e3f2fd;
+    }
+
+    article header {
+        padding: 0.5em 0;
+    }
+
+    form input[type="submit"] {
+        width: 100%;
+    }
+}
